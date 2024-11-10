@@ -20,6 +20,14 @@ export default function Home() {
           />
         </div>
         <h1 className={styles.title}>Organize suas Tarefas</h1>
+        <div className={styles.infoContent}>
+          <section className={styles.box}>
+            <span>+12 posts</span>
+          </section>
+          <section className={styles.box}>
+            <span>+90 comentários</span>
+          </section>
+        </div>
       </main>
     </div>
   )
