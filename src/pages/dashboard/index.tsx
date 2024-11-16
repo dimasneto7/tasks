@@ -179,7 +179,6 @@ export default function Dashboard({ user }: HomeProps) {
 export const getServerSideProps: GetServerSideProps = async ({ req }) => {
   console.log('Buscando pelo ServerSide')
   const session = await getSession({ req })
-  console.log(session)
 
   if (!session?.user) {
     // se não tem usuário vamos redirecionar para home
